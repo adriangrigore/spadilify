@@ -2,7 +2,7 @@ module.exports = {
 	name: "mkws", // optional, falls back to object key
 	description: "A small, no bloat, minimalist static site generator.",
 	options: {
-		frequency: 60, // (in minutes), 1 hour
+		frequency: 2 * 60, // (in minutes), 2 hours
 	},
 	urls: [
 		"https://mkws.sh/",
