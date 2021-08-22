@@ -3,7 +3,7 @@ module.exports = {
 	description: "A small, no bloat, minimalist static site generator.",
 	skip: false,
 	options: {
-		frequency: 5.5 * 60, // (in minutes), 2 hours
+		frequency: 60, // (in minutes), 2 hours
 	},
 	urls: [
 		"https://mkws.sh/",
